@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "LZYVorder"
-  s.version      = "0.0.1"
+  s.version      = "1.0.0"
   s.summary      = "常用工具库."
 
   # This description is used to generate tags and improve search results.
@@ -24,7 +24,9 @@ Pod::Spec.new do |s|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = "LZY常用工具库"
+  s.description  =  <<-DESC
+                    常用Category分类，LWOCKit
+                   DESC
 
   s.homepage     = "https://github.com/GItHubNanmu77/LZYVorder"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -37,8 +39,8 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "MIT"
-  # s.license      = { :type => "MIT", :file => "LICENSE" }
+  #s.license      = "MIT"
+  s.license      = { :type => "MIT", :file => "LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -62,8 +64,8 @@ Pod::Spec.new do |s|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  # s.platform     = :ios
-  # s.platform     = :ios, "5.0"
+  s.platform     = :ios
+  s.platform     = :ios, "9.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
@@ -89,7 +91,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "LZYVorder", "LZYVorder/**/*.{h,m}"
+  s.source_files  = "LZYVorder", "LZYVorder/LZYVorder/Vorder/**/*.{h,m}"
   # s.exclude_files = "LZYVorder/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
@@ -117,6 +119,7 @@ Pod::Spec.new do |s|
 
   # s.framework  = "SomeFramework"
   # s.frameworks = "SomeFramework", "AnotherFramework"
+  s.frameworks = "UIKit","Foundation"
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
