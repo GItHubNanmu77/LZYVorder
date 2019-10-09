@@ -1,0 +1,24 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'LZYVorder' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  pod 'AFNetworking', '~> 3.2.1',:inhibit_warnings => true
+  pod 'Masonry', :git => 'https://github.com/SnapKit/Masonry.git', :inhibit_warnings => true
+  pod 'YTKNetwork', :git => 'https://github.com/yuantiku/YTKNetwork.git', :inhibit_warnings => true
+  pod 'SDWebImage', :git =>'https://github.com/SDWebImage/SDWebImage.git', :inhibit_warnings => true
+  pod 'SVProgressHUD', :git => 'https://github.com/SVProgressHUD/SVProgressHUD.git', :inhibit_warnings => true
+  # Pods for LZYVorder
+
+  target 'LZYVorderTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'LZYVorderUITests' do
+    # Pods for testing
+  end
+
+end

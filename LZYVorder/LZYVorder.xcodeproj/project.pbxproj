@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -37,7 +37,6 @@
 		4A44657D234C309B00EF31DF /* UIView+RoundCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A446555234C309A00EF31DF /* UIView+RoundCorner.m */; };
 		4A44657E234C309B00EF31DF /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A446557234C309B00EF31DF /* UIView+Frame.m */; };
 		4A44657F234C309B00EF31DF /* NSString+Modify.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A44655C234C309B00EF31DF /* NSString+Modify.m */; };
-		4A446580234C309B00EF31DF /* UITextView+Placeholder.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A44655D234C309B00EF31DF /* UITextView+Placeholder.m */; };
 		4A446581234C309B00EF31DF /* NSDate+Transfer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A44655E234C309B00EF31DF /* NSDate+Transfer.m */; };
 		4A446582234C309B00EF31DF /* UIImage+Zip.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A44655F234C309B00EF31DF /* UIImage+Zip.m */; };
 		4A446583234C309B00EF31DF /* NSDictionary+SafeAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A446562234C309B00EF31DF /* NSDictionary+SafeAccess.m */; };
@@ -45,6 +44,27 @@
 		4A446585234C309B00EF31DF /* NSString+Transfer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A446564234C309B00EF31DF /* NSString+Transfer.m */; };
 		4A446586234C309B00EF31DF /* UIViewController+CommonTipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A446567234C309B00EF31DF /* UIViewController+CommonTipView.m */; };
 		4A446587234C309B00EF31DF /* LZYCommonTipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A446568234C309B00EF31DF /* LZYCommonTipView.m */; };
+		4A446602234D68D300EF31DF /* LZYConfirmView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4465DB234D68D300EF31DF /* LZYConfirmView.m */; };
+		4A446603234D68D300EF31DF /* DoubleSliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4465DC234D68D300EF31DF /* DoubleSliderView.m */; };
+		4A446604234D68D300EF31DF /* LZYURLImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4465DD234D68D300EF31DF /* LZYURLImageView.m */; };
+		4A446605234D68D300EF31DF /* LZYBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4465E1234D68D300EF31DF /* LZYBaseTableViewCell.m */; };
+		4A446606234D68D300EF31DF /* LZYDateTimePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4465E2234D68D300EF31DF /* LZYDateTimePickerView.m */; };
+		4A446607234D68D300EF31DF /* LZYSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4465E4234D68D300EF31DF /* LZYSearchBar.m */; };
+		4A446609234D68D300EF31DF /* GCDQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4465EA234D68D300EF31DF /* GCDQueue.m */; };
+		4A44660A234D68D300EF31DF /* GCDTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4465EB234D68D300EF31DF /* GCDTimer.m */; };
+		4A44660B234D68D300EF31DF /* GCDGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4465EC234D68D300EF31DF /* GCDGroup.m */; };
+		4A44660C234D68D300EF31DF /* GCDSemaphore.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4465EE234D68D300EF31DF /* GCDSemaphore.m */; };
+		4A446676234D844200EF31DF /* LZYGCDTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A446665234D844200EF31DF /* LZYGCDTimer.m */; };
+		4A446677234D844200EF31DF /* MF_Base64Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A44666C234D844200EF31DF /* MF_Base64Additions.m */; };
+		4A446678234D844200EF31DF /* SDQZEncryptUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A44666D234D844200EF31DF /* SDQZEncryptUtils.m */; };
+		4A446679234D844200EF31DF /* LZYAuthorizationUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A44666E234D844200EF31DF /* LZYAuthorizationUtils.m */; };
+		4A44667A234D844200EF31DF /* LZYDeviceUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A446670234D844200EF31DF /* LZYDeviceUtils.m */; };
+		4A44667B234D844200EF31DF /* YYRecordTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A446672234D844200EF31DF /* YYRecordTool.m */; };
+		4A44667C234D844200EF31DF /* FPSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A446673234D844200EF31DF /* FPSLabel.m */; };
+		4A44667D234D844200EF31DF /* LVRecordTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A446674234D844200EF31DF /* LVRecordTool.m */; };
+		550E816C3F2FEF5E7F78EC52 /* Pods_LZYVorderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AFDC658DCAA9A55E991372E /* Pods_LZYVorderTests.framework */; };
+		7C259BF2ADA3B3FFD0D4737F /* Pods_LZYVorder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8E2E121437461CBAA3BB07A /* Pods_LZYVorder.framework */; };
+		C08CDDF66EE36ABDD49C9B9A /* Pods_LZYVorder_LZYVorderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC6AC4DA65C9B9EF983444BF /* Pods_LZYVorder_LZYVorderUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +85,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0469C9E47D1C301804A6CC62 /* Pods-LZYVorder-LZYVorderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LZYVorder-LZYVorderUITests.release.xcconfig"; path = "Target Support Files/Pods-LZYVorder-LZYVorderUITests/Pods-LZYVorder-LZYVorderUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1AFDC658DCAA9A55E991372E /* Pods_LZYVorderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LZYVorderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A4464F0234C2F5500EF31DF /* LZYVorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LZYVorder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A4464F3234C2F5500EF31DF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4A4464F4234C2F5500EF31DF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -85,7 +107,6 @@
 		4A44651C234C2F5600EF31DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A446529234C309A00EF31DF /* NSString+Convert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Convert.h"; sourceTree = "<group>"; };
 		4A44652A234C309A00EF31DF /* NSString+Modify.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Modify.h"; sourceTree = "<group>"; };
-		4A44652B234C309A00EF31DF /* UITextView+Placeholder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+Placeholder.h"; sourceTree = "<group>"; };
 		4A44652C234C309A00EF31DF /* NSString+Convert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Convert.m"; sourceTree = "<group>"; };
 		4A44652D234C309A00EF31DF /* NSString+Judge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Judge.h"; sourceTree = "<group>"; };
 		4A44652E234C309A00EF31DF /* NSString+Judge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Judge.m"; sourceTree = "<group>"; };
@@ -130,7 +151,6 @@
 		4A44655A234C309B00EF31DF /* UIButton+FitStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+FitStyle.h"; sourceTree = "<group>"; };
 		4A44655B234C309B00EF31DF /* NSDate+Transfer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Transfer.h"; sourceTree = "<group>"; };
 		4A44655C234C309B00EF31DF /* NSString+Modify.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Modify.m"; sourceTree = "<group>"; };
-		4A44655D234C309B00EF31DF /* UITextView+Placeholder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+Placeholder.m"; sourceTree = "<group>"; };
 		4A44655E234C309B00EF31DF /* NSDate+Transfer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Transfer.m"; sourceTree = "<group>"; };
 		4A44655F234C309B00EF31DF /* UIImage+Zip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Zip.m"; sourceTree = "<group>"; };
 		4A446560234C309B00EF31DF /* NSString+Transfer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Transfer.h"; sourceTree = "<group>"; };
@@ -143,6 +163,50 @@
 		4A446568234C309B00EF31DF /* LZYCommonTipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZYCommonTipView.m; sourceTree = "<group>"; };
 		4A446569234C309B00EF31DF /* UIViewController+CommonTipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CommonTipView.h"; sourceTree = "<group>"; };
 		4A44656A234C309B00EF31DF /* LZYCommonTipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZYCommonTipView.h; sourceTree = "<group>"; };
+		4A4465D9234D68D300EF31DF /* LZYDateTimePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZYDateTimePickerView.h; sourceTree = "<group>"; };
+		4A4465DA234D68D300EF31DF /* LZYBaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZYBaseTableViewCell.h; sourceTree = "<group>"; };
+		4A4465DB234D68D300EF31DF /* LZYConfirmView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZYConfirmView.m; sourceTree = "<group>"; };
+		4A4465DC234D68D300EF31DF /* DoubleSliderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoubleSliderView.m; sourceTree = "<group>"; };
+		4A4465DD234D68D300EF31DF /* LZYURLImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZYURLImageView.m; sourceTree = "<group>"; };
+		4A4465DE234D68D300EF31DF /* LZYSearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZYSearchBar.h; sourceTree = "<group>"; };
+		4A4465DF234D68D300EF31DF /* LZYConfirmView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZYConfirmView.h; sourceTree = "<group>"; };
+		4A4465E0234D68D300EF31DF /* DoubleSliderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoubleSliderView.h; sourceTree = "<group>"; };
+		4A4465E1234D68D300EF31DF /* LZYBaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZYBaseTableViewCell.m; sourceTree = "<group>"; };
+		4A4465E2234D68D300EF31DF /* LZYDateTimePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZYDateTimePickerView.m; sourceTree = "<group>"; };
+		4A4465E3234D68D300EF31DF /* LZYURLImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZYURLImageView.h; sourceTree = "<group>"; };
+		4A4465E4234D68D300EF31DF /* LZYSearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZYSearchBar.m; sourceTree = "<group>"; };
+		4A4465E9234D68D300EF31DF /* GCDSemaphore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDSemaphore.h; sourceTree = "<group>"; };
+		4A4465EA234D68D300EF31DF /* GCDQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDQueue.m; sourceTree = "<group>"; };
+		4A4465EB234D68D300EF31DF /* GCDTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDTimer.m; sourceTree = "<group>"; };
+		4A4465EC234D68D300EF31DF /* GCDGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDGroup.m; sourceTree = "<group>"; };
+		4A4465ED234D68D300EF31DF /* GCD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCD.h; sourceTree = "<group>"; };
+		4A4465EE234D68D300EF31DF /* GCDSemaphore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDSemaphore.m; sourceTree = "<group>"; };
+		4A4465EF234D68D300EF31DF /* GCDQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDQueue.h; sourceTree = "<group>"; };
+		4A4465F0234D68D300EF31DF /* GCDGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDGroup.h; sourceTree = "<group>"; };
+		4A4465F1234D68D300EF31DF /* GCDTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDTimer.h; sourceTree = "<group>"; };
+		4A446664234D844200EF31DF /* LZYDeviceUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZYDeviceUtils.h; sourceTree = "<group>"; };
+		4A446665234D844200EF31DF /* LZYGCDTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZYGCDTimer.m; sourceTree = "<group>"; };
+		4A446666234D844200EF31DF /* YYRecordTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYRecordTool.h; sourceTree = "<group>"; };
+		4A446667234D844200EF31DF /* FPSLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPSLabel.h; sourceTree = "<group>"; };
+		4A446669234D844200EF31DF /* SDQZEncryptUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDQZEncryptUtils.h; sourceTree = "<group>"; };
+		4A44666B234D844200EF31DF /* MF_Base64Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MF_Base64Additions.h; sourceTree = "<group>"; };
+		4A44666C234D844200EF31DF /* MF_Base64Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MF_Base64Additions.m; sourceTree = "<group>"; };
+		4A44666D234D844200EF31DF /* SDQZEncryptUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDQZEncryptUtils.m; sourceTree = "<group>"; };
+		4A44666E234D844200EF31DF /* LZYAuthorizationUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZYAuthorizationUtils.m; sourceTree = "<group>"; };
+		4A44666F234D844200EF31DF /* LVRecordTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LVRecordTool.h; sourceTree = "<group>"; };
+		4A446670234D844200EF31DF /* LZYDeviceUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZYDeviceUtils.m; sourceTree = "<group>"; };
+		4A446671234D844200EF31DF /* LZYGCDTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZYGCDTimer.h; sourceTree = "<group>"; };
+		4A446672234D844200EF31DF /* YYRecordTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYRecordTool.m; sourceTree = "<group>"; };
+		4A446673234D844200EF31DF /* FPSLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPSLabel.m; sourceTree = "<group>"; };
+		4A446674234D844200EF31DF /* LVRecordTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LVRecordTool.m; sourceTree = "<group>"; };
+		4A446675234D844200EF31DF /* LZYAuthorizationUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZYAuthorizationUtils.h; sourceTree = "<group>"; };
+		8A6D85F6E0A285293E90BB5C /* Pods-LZYVorderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LZYVorderTests.release.xcconfig"; path = "Target Support Files/Pods-LZYVorderTests/Pods-LZYVorderTests.release.xcconfig"; sourceTree = "<group>"; };
+		981B506DE8A47A18BDF79A38 /* Pods-LZYVorderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LZYVorderTests.debug.xcconfig"; path = "Target Support Files/Pods-LZYVorderTests/Pods-LZYVorderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9DF14DB1B2970FA9601A2743 /* Pods-LZYVorder-LZYVorderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LZYVorder-LZYVorderUITests.debug.xcconfig"; path = "Target Support Files/Pods-LZYVorder-LZYVorderUITests/Pods-LZYVorder-LZYVorderUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BC6AC4DA65C9B9EF983444BF /* Pods_LZYVorder_LZYVorderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LZYVorder_LZYVorderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC8A2AB5112DF538BCFF3EFE /* Pods-LZYVorder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LZYVorder.release.xcconfig"; path = "Target Support Files/Pods-LZYVorder/Pods-LZYVorder.release.xcconfig"; sourceTree = "<group>"; };
+		D4D209FDDC93F7B52D8F31AC /* Pods-LZYVorder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LZYVorder.debug.xcconfig"; path = "Target Support Files/Pods-LZYVorder/Pods-LZYVorder.debug.xcconfig"; sourceTree = "<group>"; };
+		D8E2E121437461CBAA3BB07A /* Pods_LZYVorder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LZYVorder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +214,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C259BF2ADA3B3FFD0D4737F /* Pods_LZYVorder.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,6 +222,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				550E816C3F2FEF5E7F78EC52 /* Pods_LZYVorderTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,12 +230,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C08CDDF66EE36ABDD49C9B9A /* Pods_LZYVorder_LZYVorderUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3167D5E2531E369E48298167 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D4D209FDDC93F7B52D8F31AC /* Pods-LZYVorder.debug.xcconfig */,
+				CC8A2AB5112DF538BCFF3EFE /* Pods-LZYVorder.release.xcconfig */,
+				9DF14DB1B2970FA9601A2743 /* Pods-LZYVorder-LZYVorderUITests.debug.xcconfig */,
+				0469C9E47D1C301804A6CC62 /* Pods-LZYVorder-LZYVorderUITests.release.xcconfig */,
+				981B506DE8A47A18BDF79A38 /* Pods-LZYVorderTests.debug.xcconfig */,
+				8A6D85F6E0A285293E90BB5C /* Pods-LZYVorderTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		4A4464E7234C2F5500EF31DF = {
 			isa = PBXGroup;
 			children = (
@@ -177,6 +257,8 @@
 				4A44650E234C2F5600EF31DF /* LZYVorderTests */,
 				4A446519234C2F5600EF31DF /* LZYVorderUITests */,
 				4A4464F1234C2F5500EF31DF /* Products */,
+				3167D5E2531E369E48298167 /* Pods */,
+				BC9E042F6B17D8DE27424C17 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -230,7 +312,10 @@
 		4A446528234C2F6D00EF31DF /* Vorder */ = {
 			isa = PBXGroup;
 			children = (
+				4A446663234D844200EF31DF /* Tool */,
+				4A4465D8234D68D300EF31DF /* baseView */,
 				4A446535234C309A00EF31DF /* BlocksKit */,
+				4A4465E8234D68D300EF31DF /* GCDCommon */,
 				4A446561234C309B00EF31DF /* LZYMacro.h */,
 				4A44655B234C309B00EF31DF /* NSDate+Transfer.h */,
 				4A44655E234C309B00EF31DF /* NSDate+Transfer.m */,
@@ -249,8 +334,6 @@
 				4A446554234C309A00EF31DF /* UIImage+Zip.h */,
 				4A44655F234C309B00EF31DF /* UIImage+Zip.m */,
 				4A446532234C309A00EF31DF /* UINavigationController+FDFullscreenPopGesture */,
-				4A44652B234C309A00EF31DF /* UITextView+Placeholder.h */,
-				4A44655D234C309B00EF31DF /* UITextView+Placeholder.m */,
 				4A446558234C309B00EF31DF /* UIView+Frame.h */,
 				4A446557234C309B00EF31DF /* UIView+Frame.m */,
 				4A446565234C309B00EF31DF /* UIView+RoundCorner.h */,
@@ -278,8 +361,8 @@
 			children = (
 				4A446536234C309A00EF31DF /* BlocksKit+UIKit.h */,
 				4A446537234C309A00EF31DF /* Core */,
-				4A44653A234C309A00EF31DF /* UIKit */,
 				4A44654B234C309A00EF31DF /* DynamicDelegate */,
+				4A44653A234C309A00EF31DF /* UIKit */,
 			);
 			path = BlocksKit;
 			sourceTree = "<group>";
@@ -342,6 +425,90 @@
 			path = "UIViewController+CommonTipView";
 			sourceTree = "<group>";
 		};
+		4A4465D8234D68D300EF31DF /* baseView */ = {
+			isa = PBXGroup;
+			children = (
+				4A4465E0234D68D300EF31DF /* DoubleSliderView.h */,
+				4A4465DC234D68D300EF31DF /* DoubleSliderView.m */,
+				4A4465DA234D68D300EF31DF /* LZYBaseTableViewCell.h */,
+				4A4465E1234D68D300EF31DF /* LZYBaseTableViewCell.m */,
+				4A4465DF234D68D300EF31DF /* LZYConfirmView.h */,
+				4A4465DB234D68D300EF31DF /* LZYConfirmView.m */,
+				4A4465D9234D68D300EF31DF /* LZYDateTimePickerView.h */,
+				4A4465E2234D68D300EF31DF /* LZYDateTimePickerView.m */,
+				4A4465DE234D68D300EF31DF /* LZYSearchBar.h */,
+				4A4465E4234D68D300EF31DF /* LZYSearchBar.m */,
+				4A4465E3234D68D300EF31DF /* LZYURLImageView.h */,
+				4A4465DD234D68D300EF31DF /* LZYURLImageView.m */,
+			);
+			path = baseView;
+			sourceTree = "<group>";
+		};
+		4A4465E8234D68D300EF31DF /* GCDCommon */ = {
+			isa = PBXGroup;
+			children = (
+				4A4465ED234D68D300EF31DF /* GCD.h */,
+				4A4465F0234D68D300EF31DF /* GCDGroup.h */,
+				4A4465EC234D68D300EF31DF /* GCDGroup.m */,
+				4A4465EF234D68D300EF31DF /* GCDQueue.h */,
+				4A4465EA234D68D300EF31DF /* GCDQueue.m */,
+				4A4465E9234D68D300EF31DF /* GCDSemaphore.h */,
+				4A4465EE234D68D300EF31DF /* GCDSemaphore.m */,
+				4A4465F1234D68D300EF31DF /* GCDTimer.h */,
+				4A4465EB234D68D300EF31DF /* GCDTimer.m */,
+			);
+			path = GCDCommon;
+			sourceTree = "<group>";
+		};
+		4A446663234D844200EF31DF /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				4A446667234D844200EF31DF /* FPSLabel.h */,
+				4A446673234D844200EF31DF /* FPSLabel.m */,
+				4A44666F234D844200EF31DF /* LVRecordTool.h */,
+				4A446674234D844200EF31DF /* LVRecordTool.m */,
+				4A446675234D844200EF31DF /* LZYAuthorizationUtils.h */,
+				4A44666E234D844200EF31DF /* LZYAuthorizationUtils.m */,
+				4A446664234D844200EF31DF /* LZYDeviceUtils.h */,
+				4A446670234D844200EF31DF /* LZYDeviceUtils.m */,
+				4A446671234D844200EF31DF /* LZYGCDTimer.h */,
+				4A446665234D844200EF31DF /* LZYGCDTimer.m */,
+				4A446668234D844200EF31DF /* SDQZEncryptUtils */,
+				4A446666234D844200EF31DF /* YYRecordTool.h */,
+				4A446672234D844200EF31DF /* YYRecordTool.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		4A446668234D844200EF31DF /* SDQZEncryptUtils */ = {
+			isa = PBXGroup;
+			children = (
+				4A446669234D844200EF31DF /* SDQZEncryptUtils.h */,
+				4A44666A234D844200EF31DF /* Base64 */,
+				4A44666D234D844200EF31DF /* SDQZEncryptUtils.m */,
+			);
+			path = SDQZEncryptUtils;
+			sourceTree = "<group>";
+		};
+		4A44666A234D844200EF31DF /* Base64 */ = {
+			isa = PBXGroup;
+			children = (
+				4A44666B234D844200EF31DF /* MF_Base64Additions.h */,
+				4A44666C234D844200EF31DF /* MF_Base64Additions.m */,
+			);
+			path = Base64;
+			sourceTree = "<group>";
+		};
+		BC9E042F6B17D8DE27424C17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D8E2E121437461CBAA3BB07A /* Pods_LZYVorder.framework */,
+				BC6AC4DA65C9B9EF983444BF /* Pods_LZYVorder_LZYVorderUITests.framework */,
+				1AFDC658DCAA9A55E991372E /* Pods_LZYVorderTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -349,9 +516,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4A44651F234C2F5600EF31DF /* Build configuration list for PBXNativeTarget "LZYVorder" */;
 			buildPhases = (
+				899DBAFAB6DEEDFC7F26E8D7 /* [CP] Check Pods Manifest.lock */,
 				4A4464EC234C2F5500EF31DF /* Sources */,
 				4A4464ED234C2F5500EF31DF /* Frameworks */,
 				4A4464EE234C2F5500EF31DF /* Resources */,
+				231BC2C30F2826B00783BD86 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -366,6 +535,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4A446522234C2F5600EF31DF /* Build configuration list for PBXNativeTarget "LZYVorderTests" */;
 			buildPhases = (
+				E1FDE17A94CECAC014A90AC7 /* [CP] Check Pods Manifest.lock */,
 				4A446507234C2F5600EF31DF /* Sources */,
 				4A446508234C2F5600EF31DF /* Frameworks */,
 				4A446509234C2F5600EF31DF /* Resources */,
@@ -384,9 +554,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4A446525234C2F5600EF31DF /* Build configuration list for PBXNativeTarget "LZYVorderUITests" */;
 			buildPhases = (
+				D9DF5B181EFE870543676007 /* [CP] Check Pods Manifest.lock */,
 				4A446512234C2F5600EF31DF /* Sources */,
 				4A446513234C2F5600EF31DF /* Frameworks */,
 				4A446514234C2F5600EF31DF /* Resources */,
+				76187A77A0A6C6508731401B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -467,28 +639,145 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		231BC2C30F2826B00783BD86 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LZYVorder/Pods-LZYVorder-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LZYVorder/Pods-LZYVorder-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LZYVorder/Pods-LZYVorder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76187A77A0A6C6508731401B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LZYVorder-LZYVorderUITests/Pods-LZYVorder-LZYVorderUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LZYVorder-LZYVorderUITests/Pods-LZYVorder-LZYVorderUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LZYVorder-LZYVorderUITests/Pods-LZYVorder-LZYVorderUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		899DBAFAB6DEEDFC7F26E8D7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LZYVorder-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9DF5B181EFE870543676007 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LZYVorder-LZYVorderUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1FDE17A94CECAC014A90AC7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LZYVorderTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4A4464EC234C2F5500EF31DF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A44660B234D68D300EF31DF /* GCDGroup.m in Sources */,
 				4A44657E234C309B00EF31DF /* UIView+Frame.m in Sources */,
-				4A446580234C309B00EF31DF /* UITextView+Placeholder.m in Sources */,
 				4A446581234C309B00EF31DF /* NSDate+Transfer.m in Sources */,
 				4A446584234C309B00EF31DF /* UIButton+FitStyle.m in Sources */,
+				4A44667A234D844200EF31DF /* LZYDeviceUtils.m in Sources */,
 				4A446585234C309B00EF31DF /* NSString+Transfer.m in Sources */,
 				4A446579234C309B00EF31DF /* A2BlockInvocation.m in Sources */,
 				4A446575234C309B00EF31DF /* UIGestureRecognizer+BlocksKit.m in Sources */,
+				4A446602234D68D300EF31DF /* LZYConfirmView.m in Sources */,
 				4A44656E234C309B00EF31DF /* UIView+Snapshot.m in Sources */,
+				4A44660C234D68D300EF31DF /* GCDSemaphore.m in Sources */,
 				4A446586234C309B00EF31DF /* UIViewController+CommonTipView.m in Sources */,
+				4A446603234D68D300EF31DF /* DoubleSliderView.m in Sources */,
 				4A4464FB234C2F5500EF31DF /* ViewController.m in Sources */,
+				4A44660A234D68D300EF31DF /* GCDTimer.m in Sources */,
 				4A44656C234C309B00EF31DF /* NSString+Judge.m in Sources */,
 				4A44657F234C309B00EF31DF /* NSString+Modify.m in Sources */,
 				4A44657A234C309B00EF31DF /* NSObject+A2BlockDelegate.m in Sources */,
+				4A446607234D68D300EF31DF /* LZYSearchBar.m in Sources */,
+				4A44667C234D844200EF31DF /* FPSLabel.m in Sources */,
 				4A446574234C309B00EF31DF /* UIView+BlocksKit.m in Sources */,
+				4A446676234D844200EF31DF /* LZYGCDTimer.m in Sources */,
+				4A446606234D68D300EF31DF /* LZYDateTimePickerView.m in Sources */,
+				4A446609234D68D300EF31DF /* GCDQueue.m in Sources */,
+				4A44667D234D844200EF31DF /* LVRecordTool.m in Sources */,
 				4A446570234C309B00EF31DF /* NSTimer+BlocksKit.m in Sources */,
+				4A44667B234D844200EF31DF /* YYRecordTool.m in Sources */,
+				4A446679234D844200EF31DF /* LZYAuthorizationUtils.m in Sources */,
 				4A446578234C309B00EF31DF /* UIControl+BlocksKit.m in Sources */,
 				4A44656F234C309B00EF31DF /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
+				4A446678234D844200EF31DF /* SDQZEncryptUtils.m in Sources */,
 				4A446577234C309B00EF31DF /* UIActionSheet+BlocksKit.m in Sources */,
 				4A446572234C309B00EF31DF /* UIBarButtonItem+BlocksKit.m in Sources */,
 				4A446576234C309B00EF31DF /* UIPopoverController+BlocksKit.m in Sources */,
@@ -497,12 +786,15 @@
 				4A44657C234C309B00EF31DF /* NSObject+A2DynamicDelegate.m in Sources */,
 				4A446583234C309B00EF31DF /* NSDictionary+SafeAccess.m in Sources */,
 				4A44656B234C309B00EF31DF /* NSString+Convert.m in Sources */,
+				4A446605234D68D300EF31DF /* LZYBaseTableViewCell.m in Sources */,
 				4A4464F5234C2F5500EF31DF /* AppDelegate.m in Sources */,
 				4A446506234C2F5600EF31DF /* main.m in Sources */,
 				4A446582234C309B00EF31DF /* UIImage+Zip.m in Sources */,
 				4A446587234C309B00EF31DF /* LZYCommonTipView.m in Sources */,
 				4A44656D234C309B00EF31DF /* UIViewController+Swizzling.m in Sources */,
 				4A44657B234C309B00EF31DF /* A2DynamicDelegate.m in Sources */,
+				4A446604234D68D300EF31DF /* LZYURLImageView.m in Sources */,
+				4A446677234D844200EF31DF /* MF_Base64Additions.m in Sources */,
 				4A44657D234C309B00EF31DF /* UIView+RoundCorner.m in Sources */,
 				4A4464F8234C2F5500EF31DF /* SceneDelegate.m in Sources */,
 			);
@@ -671,6 +963,7 @@
 		};
 		4A446520234C2F5600EF31DF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4D209FDDC93F7B52D8F31AC /* Pods-LZYVorder.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -689,6 +982,7 @@
 		};
 		4A446521234C2F5600EF31DF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC8A2AB5112DF538BCFF3EFE /* Pods-LZYVorder.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -707,6 +1001,7 @@
 		};
 		4A446523234C2F5600EF31DF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 981B506DE8A47A18BDF79A38 /* Pods-LZYVorderTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -727,6 +1022,7 @@
 		};
 		4A446524234C2F5600EF31DF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A6D85F6E0A285293E90BB5C /* Pods-LZYVorderTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -747,6 +1043,7 @@
 		};
 		4A446526234C2F5600EF31DF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DF14DB1B2970FA9601A2743 /* Pods-LZYVorder-LZYVorderUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5DYL533N39;
@@ -765,6 +1062,7 @@
 		};
 		4A446527234C2F5600EF31DF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0469C9E47D1C301804A6CC62 /* Pods-LZYVorder-LZYVorderUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5DYL533N39;

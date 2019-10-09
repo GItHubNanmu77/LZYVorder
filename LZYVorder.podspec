@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "LZYVorder"
-  s.version      = "1.0.2"
+  s.version      = "1.0.3"
   s.summary      = "常用工具库."
 
   # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  =  <<-DESC
-                    常用Category分类，LWOCKit
+                    常用Category分类，三方视图，baseView，工具类
                    DESC
 
   s.homepage     = "https://github.com/GItHubNanmu77/LZYVorder"
@@ -134,6 +134,10 @@ Pod::Spec.new do |s|
   # s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  # s.dependency "JSONKit", "~> 1.4"
+  s.dependency "YTKNetwork", "~> 2.0.4"
+  s.dependency "Masonry", "~> 1.1.0"
+  s.dependency "AFNetworking", "~> 3.2.1"
+  s.dependency "SDWebImage", "~> 5.2.2"
+  s.dependency "SVProgressHUD"
 
 end

@@ -1,0 +1,69 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - Masonry (1.1.0)
+  - SDWebImage (5.2.2):
+    - SDWebImage/Core (= 5.2.2)
+  - SDWebImage/Core (5.2.2)
+  - SVProgressHUD (2.2.6)
+  - YTKNetwork (2.0.4):
+    - AFNetworking (~> 3.0)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.2.1)
+  - Masonry (from `https://github.com/SnapKit/Masonry.git`)
+  - SDWebImage (from `https://github.com/SDWebImage/SDWebImage.git`)
+  - SVProgressHUD (from `https://github.com/SVProgressHUD/SVProgressHUD.git`)
+  - YTKNetwork (from `https://github.com/yuantiku/YTKNetwork.git`)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+
+EXTERNAL SOURCES:
+  Masonry:
+    :git: https://github.com/SnapKit/Masonry.git
+  SDWebImage:
+    :git: https://github.com/SDWebImage/SDWebImage.git
+  SVProgressHUD:
+    :git: https://github.com/SVProgressHUD/SVProgressHUD.git
+  YTKNetwork:
+    :git: https://github.com/yuantiku/YTKNetwork.git
+
+CHECKOUT OPTIONS:
+  Masonry:
+    :commit: 8bd77ea92bbe995e14c454f821200b222e5a8804
+    :git: https://github.com/SnapKit/Masonry.git
+  SDWebImage:
+    :commit: 4ad718a1ed38aa1db1e03a5a47c56371f71e549f
+    :git: https://github.com/SDWebImage/SDWebImage.git
+  SVProgressHUD:
+    :commit: 4fdf3fdc8703fd9915dae33fc1363c604a06b24e
+    :git: https://github.com/SVProgressHUD/SVProgressHUD.git
+  YTKNetwork:
+    :commit: a2ad5de23ca2b965a90df142fe68627919ccb735
+    :git: https://github.com/yuantiku/YTKNetwork.git
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  SDWebImage: 5fcdb02cc35e05fc35791ec514b191d27189f872
+  SVProgressHUD: 6ed134667e9ebb2f33679e8273cd48fd3fa349e5
+  YTKNetwork: df8a7a5597bda1664a4efaa7ef871a818a887fe0
+
+PODFILE CHECKSUM: c1b351fdb67902dbf2e8e32b66de3c4a1487eb57
+
+COCOAPODS: 1.8.3
