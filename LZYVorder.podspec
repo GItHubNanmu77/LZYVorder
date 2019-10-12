@@ -91,7 +91,12 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "LZYVorder", "LZYVorder/LZYVorder/Vorder/GCDCommon/**/*.{h,m}","LZYVorder/LZYVorder/Vorder/BlocksKit/**/*.{h,m}","LZYVorder/LZYVorder/Vorder/Categoory/**/*.{h,m}",
+  s.source_files  = "LZYVorder", "LZYVorder/LZYVorder/Vorder/GCDCommon/**/*.{h,m}","LZYVorder/LZYVorder/Vorder/Categoory/**/*.{h,m}",
+
+    s.subspec 'BlocksKit' do |ss|
+	ss.source_files = "LZYVorder", "LZYVorder/LZYVorder/Vorder/BlocksKit/**/*.{h,m}"
+end
+
   # s.exclude_files = "LZYVorder/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
