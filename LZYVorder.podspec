@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "LZYVorder"
-  s.version      = "1.0.3"
+  s.version      = "1.0.4"
   s.summary      = "常用工具库."
 
   # This description is used to generate tags and improve search results.
@@ -91,7 +91,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "LZYVorder", "LZYVorder/LZYVorder/Vorder/**/*.{h,m}"
+  s.source_files  = "LZYVorder", "LZYVorder/LZYVorder/Vorder/GCDCommon/**/*.{h,m}","LZYVorder/LZYVorder/Vorder/BlocksKit/**/*.{h,m}","LZYVorder/LZYVorder/Vorder/Categoory/**/*.{h,m}",
   # s.exclude_files = "LZYVorder/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"

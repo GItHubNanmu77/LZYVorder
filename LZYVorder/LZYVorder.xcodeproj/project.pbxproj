@@ -62,6 +62,7 @@
 		4A44667B234D844200EF31DF /* YYRecordTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A446672234D844200EF31DF /* YYRecordTool.m */; };
 		4A44667C234D844200EF31DF /* FPSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A446673234D844200EF31DF /* FPSLabel.m */; };
 		4A44667D234D844200EF31DF /* LVRecordTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A446674234D844200EF31DF /* LVRecordTool.m */; };
+		4A4466E923502F9B00EF31DF /* Images.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4A4466E823502F9A00EF31DF /* Images.bundle */; };
 		550E816C3F2FEF5E7F78EC52 /* Pods_LZYVorderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AFDC658DCAA9A55E991372E /* Pods_LZYVorderTests.framework */; };
 		7C259BF2ADA3B3FFD0D4737F /* Pods_LZYVorder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8E2E121437461CBAA3BB07A /* Pods_LZYVorder.framework */; };
 		C08CDDF66EE36ABDD49C9B9A /* Pods_LZYVorder_LZYVorderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC6AC4DA65C9B9EF983444BF /* Pods_LZYVorder_LZYVorderUITests.framework */; };
@@ -200,6 +201,7 @@
 		4A446673234D844200EF31DF /* FPSLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPSLabel.m; sourceTree = "<group>"; };
 		4A446674234D844200EF31DF /* LVRecordTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LVRecordTool.m; sourceTree = "<group>"; };
 		4A446675234D844200EF31DF /* LZYAuthorizationUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZYAuthorizationUtils.h; sourceTree = "<group>"; };
+		4A4466E823502F9A00EF31DF /* Images.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Images.bundle; sourceTree = "<group>"; };
 		8A6D85F6E0A285293E90BB5C /* Pods-LZYVorderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LZYVorderTests.release.xcconfig"; path = "Target Support Files/Pods-LZYVorderTests/Pods-LZYVorderTests.release.xcconfig"; sourceTree = "<group>"; };
 		981B506DE8A47A18BDF79A38 /* Pods-LZYVorderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LZYVorderTests.debug.xcconfig"; path = "Target Support Files/Pods-LZYVorderTests/Pods-LZYVorderTests.debug.xcconfig"; sourceTree = "<group>"; };
 		9DF14DB1B2970FA9601A2743 /* Pods-LZYVorder-LZYVorderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LZYVorder-LZYVorderUITests.debug.xcconfig"; path = "Target Support Files/Pods-LZYVorder-LZYVorderUITests/Pods-LZYVorder-LZYVorderUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -277,6 +279,7 @@
 			children = (
 				4A4464F3234C2F5500EF31DF /* AppDelegate.h */,
 				4A4464F4234C2F5500EF31DF /* AppDelegate.m */,
+				4A4466E823502F9A00EF31DF /* Images.bundle */,
 				4A446528234C2F6D00EF31DF /* Vorder */,
 				4A4464F6234C2F5500EF31DF /* SceneDelegate.h */,
 				4A4464F7234C2F5500EF31DF /* SceneDelegate.m */,
@@ -316,33 +319,8 @@
 				4A4465D8234D68D300EF31DF /* baseView */,
 				4A446535234C309A00EF31DF /* BlocksKit */,
 				4A4465E8234D68D300EF31DF /* GCDCommon */,
-				4A446561234C309B00EF31DF /* LZYMacro.h */,
-				4A44655B234C309B00EF31DF /* NSDate+Transfer.h */,
-				4A44655E234C309B00EF31DF /* NSDate+Transfer.m */,
-				4A446556234C309B00EF31DF /* NSDictionary+SafeAccess.h */,
-				4A446562234C309B00EF31DF /* NSDictionary+SafeAccess.m */,
-				4A446529234C309A00EF31DF /* NSString+Convert.h */,
-				4A44652C234C309A00EF31DF /* NSString+Convert.m */,
-				4A44652D234C309A00EF31DF /* NSString+Judge.h */,
-				4A44652E234C309A00EF31DF /* NSString+Judge.m */,
-				4A44652A234C309A00EF31DF /* NSString+Modify.h */,
-				4A44655C234C309B00EF31DF /* NSString+Modify.m */,
-				4A446560234C309B00EF31DF /* NSString+Transfer.h */,
-				4A446564234C309B00EF31DF /* NSString+Transfer.m */,
-				4A44655A234C309B00EF31DF /* UIButton+FitStyle.h */,
-				4A446563234C309B00EF31DF /* UIButton+FitStyle.m */,
-				4A446554234C309A00EF31DF /* UIImage+Zip.h */,
-				4A44655F234C309B00EF31DF /* UIImage+Zip.m */,
+				4A4466F12351CBEB00EF31DF /* Categoory */,
 				4A446532234C309A00EF31DF /* UINavigationController+FDFullscreenPopGesture */,
-				4A446558234C309B00EF31DF /* UIView+Frame.h */,
-				4A446557234C309B00EF31DF /* UIView+Frame.m */,
-				4A446565234C309B00EF31DF /* UIView+RoundCorner.h */,
-				4A446555234C309A00EF31DF /* UIView+RoundCorner.m */,
-				4A446530234C309A00EF31DF /* UIView+Snapshot.h */,
-				4A446531234C309A00EF31DF /* UIView+Snapshot.m */,
-				4A446566234C309B00EF31DF /* UIViewController+CommonTipView */,
-				4A446559234C309B00EF31DF /* UIViewController+Swizzling.h */,
-				4A44652F234C309A00EF31DF /* UIViewController+Swizzling.m */,
 			);
 			path = Vorder;
 			sourceTree = "<group>";
@@ -412,17 +390,6 @@
 				4A446553234C309A00EF31DF /* NSObject+A2BlockDelegate.h */,
 			);
 			path = DynamicDelegate;
-			sourceTree = "<group>";
-		};
-		4A446566234C309B00EF31DF /* UIViewController+CommonTipView */ = {
-			isa = PBXGroup;
-			children = (
-				4A446567234C309B00EF31DF /* UIViewController+CommonTipView.m */,
-				4A446568234C309B00EF31DF /* LZYCommonTipView.m */,
-				4A446569234C309B00EF31DF /* UIViewController+CommonTipView.h */,
-				4A44656A234C309B00EF31DF /* LZYCommonTipView.h */,
-			);
-			path = "UIViewController+CommonTipView";
 			sourceTree = "<group>";
 		};
 		4A4465D8234D68D300EF31DF /* baseView */ = {
@@ -497,6 +464,42 @@
 				4A44666C234D844200EF31DF /* MF_Base64Additions.m */,
 			);
 			path = Base64;
+			sourceTree = "<group>";
+		};
+		4A4466F12351CBEB00EF31DF /* Categoory */ = {
+			isa = PBXGroup;
+			children = (
+				4A446561234C309B00EF31DF /* LZYMacro.h */,
+				4A44655B234C309B00EF31DF /* NSDate+Transfer.h */,
+				4A44655E234C309B00EF31DF /* NSDate+Transfer.m */,
+				4A446556234C309B00EF31DF /* NSDictionary+SafeAccess.h */,
+				4A446562234C309B00EF31DF /* NSDictionary+SafeAccess.m */,
+				4A446529234C309A00EF31DF /* NSString+Convert.h */,
+				4A44652C234C309A00EF31DF /* NSString+Convert.m */,
+				4A44652D234C309A00EF31DF /* NSString+Judge.h */,
+				4A44652E234C309A00EF31DF /* NSString+Judge.m */,
+				4A44652A234C309A00EF31DF /* NSString+Modify.h */,
+				4A44655C234C309B00EF31DF /* NSString+Modify.m */,
+				4A446560234C309B00EF31DF /* NSString+Transfer.h */,
+				4A446564234C309B00EF31DF /* NSString+Transfer.m */,
+				4A44655A234C309B00EF31DF /* UIButton+FitStyle.h */,
+				4A446563234C309B00EF31DF /* UIButton+FitStyle.m */,
+				4A446554234C309A00EF31DF /* UIImage+Zip.h */,
+				4A44655F234C309B00EF31DF /* UIImage+Zip.m */,
+				4A446558234C309B00EF31DF /* UIView+Frame.h */,
+				4A446557234C309B00EF31DF /* UIView+Frame.m */,
+				4A446565234C309B00EF31DF /* UIView+RoundCorner.h */,
+				4A446555234C309A00EF31DF /* UIView+RoundCorner.m */,
+				4A446530234C309A00EF31DF /* UIView+Snapshot.h */,
+				4A446531234C309A00EF31DF /* UIView+Snapshot.m */,
+				4A446559234C309B00EF31DF /* UIViewController+Swizzling.h */,
+				4A44652F234C309A00EF31DF /* UIViewController+Swizzling.m */,
+				4A446567234C309B00EF31DF /* UIViewController+CommonTipView.m */,
+				4A446568234C309B00EF31DF /* LZYCommonTipView.m */,
+				4A446569234C309B00EF31DF /* UIViewController+CommonTipView.h */,
+				4A44656A234C309B00EF31DF /* LZYCommonTipView.h */,
+			);
+			path = Categoory;
 			sourceTree = "<group>";
 		};
 		BC9E042F6B17D8DE27424C17 /* Frameworks */ = {
@@ -620,6 +623,7 @@
 				4A446503234C2F5600EF31DF /* LaunchScreen.storyboard in Resources */,
 				4A446500234C2F5600EF31DF /* Assets.xcassets in Resources */,
 				4A4464FE234C2F5500EF31DF /* Main.storyboard in Resources */,
+				4A4466E923502F9B00EF31DF /* Images.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
